@@ -55,7 +55,7 @@ export default function SessionHistory({
                 style={{
                   background: isActive ? "rgba(0,212,255,0.06)" : "rgba(255,255,255,0.02)",
                   borderLeft: `3px solid ${getScoreColor(session.scores.overall)}`,
-                  ringColor: isActive ? "rgba(0,212,255,0.3)" : "transparent",
+                  outline: isActive ? "1px solid rgba(0,212,255,0.3)" : "none",
                 }}
               >
                 <div className="flex items-start justify-between gap-2">
